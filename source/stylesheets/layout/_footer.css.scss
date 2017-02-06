@@ -1,0 +1,32 @@
+/* Footer design */
+#footer{
+  background-color:#181818;
+  padding:40px 150px;
+  display:flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+#footer a{
+  text-decoration:none;
+  font-size:28px;
+  padding:0px 20px;
+  color:#CCCCCC;
+  transition-duration: 1s;
+}
+
+#footer p{
+  color:#CCCCCC;
+  font-weight:bold;
+  display:flex;
+}
+
+#footer a:hover{
+  color:#33895A;
+  transition-duration: 0.1s;
+}
+
+#footer ul {
+  display:flex;
+  flex:1 0 auto;
+}

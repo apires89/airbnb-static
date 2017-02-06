@@ -1,0 +1,76 @@
+/* Card design */
+#wrapper-features{
+  text-align:center;
+  margin:40px 0px;
+}
+
+#wrapper-features h2{
+  font-size: 22px;
+}
+
+.feature-img{
+  height:100px;
+  width:100px;
+}
+
+.feature{
+  background-color:#fbfbfb;
+  padding:20px 5px;
+  margin:10px 10px;
+  border-radius:5px;
+}
+
+#wrapper-cards{
+  background: #fbfbfb;
+  margin:40px 0px;
+  padding: 50px;
+  text-align:center;
+}
+
+.card{
+  position: relative;
+  height:250px;
+  border-radius:5px;
+  color: white;
+  margin:20px 0px;
+}
+
+.card h3{
+  position: absolute;
+  top:10px;
+  left:10px;
+  padding: 0px;
+  margin:0px;
+  font-size: 18px;
+}
+
+.card img {
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom:10px;
+  left:10px;
+  text-align:left;
+}
+
+.card-description h2 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.card a{
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  right:0px;
+  left:0px;
+}
+
+.card a:hover{
+  background-color: black;
+  opacity:0.2;
+}

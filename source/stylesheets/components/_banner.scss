@@ -1,0 +1,31 @@
+/* Banner design */
+.banner{
+
+  padding:0px;
+  height: 100vh;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-content{
+  color:white;
+  text-align:center;
+}
+
+.banner-content h1{
+  font-size:48px;
+  font-weight: bolder;
+}
+
+.banner-content p{
+  font-size:22px;
+  font-weight: lighter;
+  color:#D0D0D0;
+}
+
+.banner-content a{
+  display: block-inline;
+  margin-top:25px;
+  font-size:20px;
+}
